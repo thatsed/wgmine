@@ -1,0 +1,6 @@
+.vscode
+venv
+CMakeFiles
+*.cmake
+CMakeCache.txt
+Makefile
