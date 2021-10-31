@@ -71,6 +71,8 @@ The project is written in [C](https://knowyourmeme.com/memes/i-am-speed) and use
 
 There's also a poorely written and very slow python script inside the `py` folder if you dare tickling that beast.
 
+This is basically the same as vanity onion urls for Tor network sites. And that's what has inspired this project. 
+
 
 ## FAQs
 
@@ -104,6 +106,9 @@ SRV+nkiRDYk6Wy2StgUVVqFjjuaadHfbxg+IFQ/+5EY=
 You don't need to, but I personally like to add `+` at the end of the prefix to make it easier to see.
 That's just a preference tho :)
 
+Since public keys are irreversible (by definition) and they depend fully on their private counterpart, the only solution
+to the problem is to bruteforce a ton of key pairs until one with a public key matching the prefix is found.
+
 
 ### Does this make the key less secure?
 
@@ -113,8 +118,8 @@ Having a customized prefix on your public keys won't affect its security because
 it doesn't give a potential attacker any extra information.
 
 To crack a public key you need to generate private keys until you find one
-matching it. An attacker be looking for the **same** public key, and the prefix
-won't make any difference. They won't be able to "filter out" keys from this bruteforce
+matching it. An attacker would be looking for the **same** public key, and the prefix
+won't thus make any difference. They won't be able to "filter out" keys from this bruteforce
 based on the known prefix because they will already look for the whole key. 
 
 Side note: that would be a different story for private keys. There's no such thing
