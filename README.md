@@ -219,7 +219,7 @@ will still see them in terminal but not in the output file.
 
 ### Python Alternative
 
-> **WARNING:** this script is bad and could hurt your feeling. Handle with caution. It's also very slow. 
+> **WARNING:** this script is bad and could hurt your feelings. Handle with caution. It's also very slow. 
 
 Don't use this script unless you absolutely need to, it really is slow.
 
@@ -257,7 +257,7 @@ $ sudo apt install libsodium-dev gcc make cmake
 Clone this repo and cd into it:
 
 ```
-$ git clone https://gitlab.com/thatsed/wgmine.git
+$ git clone https://github.com/thatsed/wgmine.git
 $ cd wgmine
 ```
 
