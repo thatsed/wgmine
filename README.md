@@ -13,7 +13,7 @@
     <a href="#usage"><strong>Try it out »</strong></a>
     <br>
     <br>
-    <a href=https://hub.docker.com/r/thatsed/wgmine">DockerHub</a>
+    <a href="https://hub.docker.com/r/thatsed/wgmine">DockerHub</a>
     ·
     <a href="https://github.com/thatsed/wgmine/issues">Report Bug</a>
     ·
