@@ -41,15 +41,15 @@
     <li>
       <a href="#usage">Usage</a>
       <ul>
-        <li><a href="#what-does-vanity-key-mean">Binary</a></li>
-        <li><a href="#does-this-make-the-key-less-secure">Docker</a></li>
+        <li><a href="#docker">Docker</a></li>
+        <li><a href="#binary">Binary</a></li>
       </ul>
     </li>
     <li>
       <a href="#building">Building</a>
       <ul>
-        <li><a href="#what-does-vanity-key-mean">Building from Source</a></li>
-        <li><a href="#does-this-make-the-key-less-secure">Building with Docker</a></li>
+        <li><a href="#building-from-source">Building from Source</a></li>
+        <li><a href="#building-with-docker">Building with Docker</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
