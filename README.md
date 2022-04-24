@@ -62,7 +62,7 @@
 ## About The Project
 
 This project lets you generate Wireguard key pairs such that the public key starts
-with some prefix you whant.
+with some prefix you want.
 
 This makes identifying peers in Wireguard configurations much easier, and also
 gives the owner of the key style points. 
@@ -305,7 +305,7 @@ $ docker build -t wgmine .
 To build the unoptimized version (non 64-bit hardware):
 
 ```
-$ docker build -t wgmine .
+$ docker build -t wgmine:no-o64 --build-arg=ENABLE_O64=OFF .
 ```
 
 

@@ -328,9 +328,7 @@ int main(int argc, char const *argv[])
     }
     else
     {
-      fprintf(stderr,
-              "Estimated wait time: %.1f seconds.\n",
-              argv[i], expected_wait_s, expected_throuhput_s * 60 * 60);
+      fprintf(stderr, "Estimated wait time: %.1f seconds.\n", expected_wait_s);
     }
   }
 
